@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+#app-container .campaigns {
+  width: 1000px;
+  -webkit-box-shadow: 0px 0px 29px 25px rgba(215, 240, 255, 0.1);
+  -moz-box-shadow: 0px 0px 29px 25px rgba(215, 240, 255, 0.1);
+  box-shadow: 0px 0px 29px 25px rgba(215, 240, 255, 0.1);
+  background-color: rgba(215, 240, 255, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -355px;
+  margin-left: -505px;
+  border-radius: 9px;
+  padding: 5px; }
+  #app-container .campaigns .campaigns-list .campaigns-list-item {
+    margin: 3px;
+    padding: 5px;
+    background-color: rgba(30, 136, 0, 0.07); }
+    #app-container .campaigns .campaigns-list .campaigns-list-item:first-child {
+      border-radius: 7px 7px 0 0; }
+    #app-container .campaigns .campaigns-list .campaigns-list-item:last-child {
+      border-radius: 0 0 7px 7px; }
+    #app-container .campaigns .campaigns-list .campaigns-list-item .metrics {
+      float: right;
+      margin-right: 100px; }
+      #app-container .campaigns .campaigns-list .campaigns-list-item .metrics .metrics-item {
+        display: block;
+        font-size: 0.8em;
+        padding: 2px; }
+    #app-container .campaigns .campaigns-list .campaigns-list-item .item-name {
+      font-size: 1.5em;
+      font-weight: bold;
+      line-height: 1.5em;
+      color: #015217; }
+    #app-container .campaigns .campaigns-list .campaigns-list-item .item-id {
+      color: #b5b5b5; }
+    #app-container .campaigns .campaigns-list .campaigns-list-item .item-action {
+      float: right; }
+    #app-container .campaigns .campaigns-list .campaigns-list-item.comparing .metrics {
+      margin-right: 55px !important; }
+#app-container #compareCallerLink {
+  float: right; }
+  #app-container #compareCallerLink.activeLink {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue; }
+#app-container .pageLabel {
+  margin: 10px; }
+
+#comparator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: none; }
+  #comparator.active {
+    display: block; }
+  #comparator svg {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -230px;
+    -webkit-box-shadow: 0px 0px 66px 53px white;
+    -moz-box-shadow: 0px 0px 66px 53px white;
+    box-shadow: 0px 0px 66px 53px white;
+    padding: 10px; }
+
+/*# sourceMappingURL=main.css.map */
